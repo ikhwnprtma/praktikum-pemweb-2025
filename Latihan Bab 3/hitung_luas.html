@@ -9,13 +9,16 @@
 
 <body>
     <script>
+        
+        console.log("Luas Persegi " + hitungluas(4))
+        console.log("Luas Persegi " + hitung(7))
         let hitung = sisi => {
-            let luas = sisi * sisi;
-            console.log(`Luas persegi adalah `+ luas);
+            return sisi * sisi;
         }
-        hitung(8);
+        function hitungluas (sisi){
+            return sisi * sisi;
+        } 
     </script>
-    
 </body>
 
 </html>
